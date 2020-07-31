@@ -1,10 +1,10 @@
-var price = 2000
-var fee = 100
-var discount = 0.5
-var total = price*discount+fee
-$('h1').text(total)
+var $price = 2000
+var $fee = 150
+var $discount = 0.5
+var $total = $price*$discount+$fee
+$('h1').text($total)
 // 變數total可動態改變，並寫入h1這個元素裡
-$('h2').text(total+50+"和1234")
+$('h2').text($total+50+"和1234")
 // 數字相加直接用"+"連接；文字相連用"""
 
 $('button').click(function(){
